@@ -14,32 +14,33 @@ This script helps prepare data to language cards. It gets directory with text fi
 `python lcards.py`
 
 Arguments:
+
 `-h`
-: Show help.
+Show help.
 
 `-i` , `--input`
-: Directory with source text files. Default is `./input`.
+Directory with source text files. Default is `./input`.
 
 `-o` , `--output`
-: Output file. Result will be displayed on screen by default.
+Output file. Result will be displayed on screen by default.
 
 `-e` , `--exceptions`
-: File with words list to be excluded from result. Each word must be in new line.
+File with words list to be excluded from result. Each word must be in new line.
 
 `-tk` ,  `--translate_key`
-: Yandex.Dictionary API key. You can get it [here](http://api.yandex.ru/key/form.xml?service=dict) for free. Words will not be translated by default.
+Yandex.Dictionary API key. You can get it [here](http://api.yandex.ru/key/form.xml?service=dict) for free. Words will not be translated by default.
 
 `-tl` , `--translate_lang`
-: Translation direction. You can get list of available directions [here](http://api.yandex.ru/dictionary/doc/dg/reference/getLangs.xml). EN-RU used by default.
+Translation direction. You can get list of available directions [here](http://api.yandex.ru/dictionary/doc/dg/reference/getLangs.xml). EN-RU used by default.
 
 `-trp` , `--trim_by_percent`
-: Trim results by percent of words' usage in text.
+Trim results by percent of words' usage in text.
  
 `-trf` , `--trim_by_freq`
-: Trim results by frequency of words' usage in text.
+Trim results by frequency of words' usage in text.
 
 `-trn` , `--trinm_by_number`
-: Trim results by number of first most used words.
+Trim results by number of first most used words.
 
 
 ## Changelog ##
