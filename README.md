@@ -16,6 +16,7 @@ This script helps prepare data to language cards. It gets directory with text fi
 Arguments:
 
 `-h`
+
 Show help.
 
 `-i` , `--input`
